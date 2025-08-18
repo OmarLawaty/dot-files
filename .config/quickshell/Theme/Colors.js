@@ -1,0 +1,11 @@
+var colors = {
+  pitchBlack: "#000000",
+  background: "#111532",
+  primary: "#182453",
+  secondary: "#1F295E",
+  highlight: "#304592",
+  accent: "#514670",
+  warning: "#626093",
+  muted: "#8D89B0",
+  foreground: "#9B6B8D"
+}
