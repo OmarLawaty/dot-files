@@ -1,7 +1,7 @@
 main.config_file_version 2
 main.hotkeys_enable_option enable_hotkeys
 main.joystick_hotkeys_enable_option enable_hotkeys
-main.show_hide_hotkey 26 16
+main.show_hide_hotkey 26 20
 main.software_encoding_warning_shown false
 main.tint_color amd
 record.container mp4
@@ -85,6 +85,7 @@ screenshot.take_screenshot_hotkey 66 5
 screenshot.take_screenshot_region_hotkey 102 4
 screenshot.take_screenshot_window_hotkey 102 1
 streaming.custom.container flv
+streaming.custom.key 
 streaming.custom.url 
 streaming.record_options.advanced_view false
 streaming.record_options.application_audio_invert false
