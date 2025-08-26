@@ -138,6 +138,11 @@ alias wres="killall waybar && waybar & disown"
 alias sshs="~/.scripts/add-ssh.sh"
 alias scripts="cd ~/.scripts && code ~/.scripts/"
 alias qscnfg="cd ~/.config/quickshell && code ."
+alias pro="cd /mnt/work/Programming/"
+alias work="cd /mnt/work/"
+alias others="cd /mnt/others/"
+alias games="cd /mnt/games/"
+alias 7or="pro && cd ./Tracks/7or/"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -153,6 +158,7 @@ export QML_IMPORT_PATH=/usr/lib/qt6/qml
 export ANDROID_HOME=$HOME/Android/Sdk
 export ANDROID_SDK_ROOT=$HOME/Android/Sdk
 export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
+export QML2_IMPORT_PATH=$HOME/.config/quickshell:$QML2_IMPORT_PATH
 
 
 
